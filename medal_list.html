@@ -12,24 +12,74 @@
 <link href="custom.css" rel="stylesheet" type="text/css">
 <script>
 	$(document).ready(function(e) {
-        $.get("http://www.tjstalcup.com/apps/bf3/medals.php",{},function(data){
-			$("#page2").html(data);
-		})
+        //$.get("http://www.tjstalcup.com/apps/bf3/medals.php",{},function(data){
+			//$("#page2").html(data);
+		//})
     });
 </script>
 </head> 
 <body> 
 
 <div data-role="page" id="page2">
-	<div data-role="header">
-		<h1>Loading</h1>
-	</div>
-	<div data-role="content">	
-		Loading		
-	</div>
-	<div data-role="footer">
-		<h4>Loading</h4>
-	</div>
+
+<div data-role="header">
+	<a href="index.html" rel="external" data-role="button" data-icon="back" class="ui-btn-left ui-btn ui-btn-up-a ui-btn-icon-left ui-btn-corner-all ui-shadow" data-theme="a"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Back</span><span class="ui-icon ui-icon-back ui-icon-shadow"></span></span></a>
+	<h1>Medals</h1>
 </div>
+<div data-role="content">
+<ul data-role="listview" id="medalList">
+			<li><a href="medals.html?medal=1" rel="external"><img src="images/medals/1.png"/><strong>Assault Rifle Medal</strong></a></li>
+			<li><a href="medals.html?medal=2" rel="external"><img src="images/medals/2.png"/><strong>Carbine Medal</strong></a></li>
+			<li><a href="medals.html?medal=3" rel="external"><img src="images/medals/3.png"/><strong>Light Machinegun Medal</strong></a></li>
+			<li><a href="medals.html?medal=4" rel="external"><img src="images/medals/4.png"/><strong>Sniper Medal</strong></a></li>
+			<li><a href="medals.html?medal=5" rel="external"><img src="images/medals/5.png"/><strong>Handgun Medal</strong></a></li>
+			<li><a href="medals.html?medal=6" rel="external"><img src="images/medals/6.png"/><strong>Shotgun Medal</strong></a></li>
+			<li><a href="medals.html?medal=7" rel="external"><img src="images/medals/7.png"/><strong>PDW Medal</strong></a></li>
+			<li><a href="medals.html?medal=8" rel="external"><img src="images/medals/8.png"/><strong>Nemisis Medal</strong></a></li>
+			<li><a href="medals.html?medal=9" rel="external"><img src="images/medals/9.png"/><strong>Marksman Medal</strong></a></li>
+			<li><a href="medals.html?medal=10" rel="external"><img src="images/medals/10.png"/><strong>Avenger Medal</strong></a></li>
+			<li><a href="medals.html?medal=11" rel="external"><img src="images/medals/11.png"/><strong>Saviour Medal</strong></a></li>
+			<li><a href="medals.html?medal=12" rel="external"><img src="images/medals/12.png"/><strong>3rd MVP Medal</strong></a></li>
+			<li><a href="medals.html?medal=13" rel="external"><img src="images/medals/13.png"/><strong>Suppression Medal</strong></a></li>
+			<li><a href="medals.html?medal=14" rel="external"><img src="images/medals/14.png"/><strong>MVP Medal</strong></a></li>
+			<li><a href="medals.html?medal=15" rel="external"><img src="images/medals/15.png"/><strong>2nd MVP Medal</strong></a></li>
+			<li><a href="medals.html?medal=16" rel="external"><img src="images/medals/16.png"/><strong>Ground Warfare Medal</strong></a></li>
+			<li><a href="medals.html?medal=17" rel="external"><img src="images/medals/17.png"/><strong>Ace Squad Medal</strong></a></li>
+			<li><a href="medals.html?medal=18" rel="external"><img src="images/medals/18.png"/><strong>Combat Efficiency Medal</strong></a></li>
+			<li><a href="medals.html?medal=19" rel="external"><img src="images/medals/19.png"/><strong>Transport Warfare Medal</strong></a></li>
+			<li><a href="medals.html?medal=20" rel="external"><img src="images/medals/20.png"/><strong>M-COM Defender Medal</strong></a></li>
+			<li><a href="medals.html?medal=21" rel="external"><img src="images/medals/21.png"/><strong>Air Warfare Medal</strong></a></li>
+			<li><a href="medals.html?medal=22" rel="external"><img src="images/medals/22.png"/><strong>Stationary Emplacement Medal</strong></a></li>
+			<li><a href="medals.html?medal=23" rel="external"><img src="images/medals/23.png"/><strong>M-COM Attacker Medal</strong></a></li>
+			<li><a href="medals.html?medal=24" rel="external"><img src="images/medals/24.png"/><strong>Squad Rush Medal</strong></a></li>
+			<li><a href="medals.html?medal=25" rel="external"><img src="images/medals/25.png"/><strong>Rush Medal</strong></a></li>
+			<li><a href="medals.html?medal=26" rel="external"><img src="images/medals/26.png"/><strong>Conquest Medal</strong></a></li>
+			<li><a href="medals.html?medal=27" rel="external"><img src="images/medals/27.png"/><strong>Team Deathmatch Medal</strong></a></li>
+			<li><a href="medals.html?medal=28" rel="external"><img src="images/medals/28.png"/><strong>Resupply Medal</strong></a></li>
+			<li><a href="medals.html?medal=29" rel="external"><img src="images/medals/29.png"/><strong>Squad Deathmatch Medal</strong></a></li>
+			<li><a href="medals.html?medal=30" rel="external"><img src="images/medals/30.png"/><strong>Flag Attacker Medal</strong></a></li>
+			<li><a href="medals.html?medal=31" rel="external"><img src="images/medals/31.png"/><strong>Flag Defender Medal</strong></a></li>
+			<li><a href="medals.html?medal=32" rel="external"><img src="images/medals/32.png"/><strong>Mortar Medal</strong></a></li>
+			<li><a href="medals.html?medal=33" rel="external"><img src="images/medals/33.png"/><strong>Maintenance Medal</strong></a></li>
+			<li><a href="medals.html?medal=34" rel="external"><img src="images/medals/34.png"/><strong>Medical Medal</strong></a></li>
+			<li><a href="medals.html?medal=35" rel="external"><img src="images/medals/35.png"/><strong>Surveillance Medal</strong></a></li>
+			<li><a href="medals.html?medal=36" rel="external"><img src="images/medals/36.png"/><strong>US Army Service Medal</strong></a></li>
+			<li><a href="medals.html?medal=37" rel="external"><img src="images/medals/37.png"/><strong>Laser Designator Medal</strong></a></li>
+			<li><a href="medals.html?medal=38" rel="external"><img src="images/medals/38.png"/><strong>Claymore Medal</strong></a></li>
+			<li><a href="medals.html?medal=39" rel="external"><img src="images/medals/39.png"/><strong>Radio Becon Medal</strong></a></li>
+			<li><a href="medals.html?medal=40" rel="external"><img src="images/medals/40.png"/><strong>Support Service Medal</strong></a></li>
+			<li><a href="medals.html?medal=41" rel="external"><img src="images/medals/41.png"/><strong>RU Army Service Medal</strong></a></li>
+			<li><a href="medals.html?medal=42" rel="external"><img src="images/medals/42.png"/><strong>Assault Service Medal</strong></a></li>
+			<li><a href="medals.html?medal=43" rel="external"><img src="images/medals/43.png"/><strong>Engineer Service Medal</strong></a></li>
+			<li><a href="medals.html?medal=44" rel="external"><img src="images/medals/44.png"/><strong>Jet Service Medal</strong></a></li>
+			<li><a href="medals.html?medal=45" rel="external"><img src="images/medals/45.png"/><strong>Recon Service Medal</strong></a></li>
+			<li><a href="medals.html?medal=46" rel="external"><img src="images/medals/46.png"/><strong>Tank Service Medal</strong></a></li>
+			<li><a href="medals.html?medal=47" rel="external"><img src="images/medals/47.png"/><strong>Helicopter Service Medal</strong></a></li>
+			<li><a href="medals.html?medal=48" rel="external"><img src="images/medals/48.png"/><strong>Stationary Service Medal</strong></a></li>
+	</ul>
+</div>
+<!-- <div data-role="footer" class="ui-bar-a ui-footer" role="contentinfo">
+	<h4 class="ui-title" tabindex="0" role="heading" aria-level="1">Footer</h4>
+</div> --></div>
 </body>
 </html>

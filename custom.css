@@ -8,21 +8,34 @@
 	min-height: 368px;
 	background-position-y: -20px;
 }
-#page {
-	height: 480px;
-	min-height: 480px;
-}
 #page #pageOneContent ul li {
 	opacity: 0.9;
 }
 
-.imageListItem {
-	display: block;
-	height: 40px;
-	width: 380px;
-	font-size: 0.9em;	
+.achievementIcon {
+	width: 40px;
+	margin-left: 10px;
+	margin-top: 10px;	
 }
-.imageListItem strong {
+
+#medalList li img {
+	width: 40px;
+	margin-left: 10px;	
+}
+
+#ribbonList li img {
+	width: 60px;
+	margin-left: 10px;
+	margin-top: 18px;	
+}
+
+strong {
 	display: block;
-	padding-top: 10px;	
+	font-size: 12px;
+	margin-left: 10px;
+	margin-top: 12px;	
+}
+
+#ribbonList li strong {
+	margin-left: 25px;	
 }

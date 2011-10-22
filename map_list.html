@@ -12,24 +12,39 @@
 <link href="custom.css" rel="stylesheet" type="text/css">
 <script>
 	$(document).ready(function(e) {
-        $.get("http://www.tjstalcup.com/apps/bf3/maps.php",{},function(data){
-			$("#page2").html(data);
-		})
+       // $.get("http://www.tjstalcup.com/apps/bf3/maps.php",{},function(data){
+			//$("#page2").html(data);
+		//})
     });
 </script>
 </head> 
 <body> 
 
 <div data-role="page" id="page2">
-	<div data-role="header">
-		<h1>Loading</h1>
-	</div>
-	<div data-role="content">	
-		Loading		
-	</div>
-	<div data-role="footer">
-		<h4>Loading</h4>
-	</div>
+
+<div data-role="header">
+	<a href="index.html" rel="external" data-role="button" data-icon="back" class="ui-btn-left ui-btn ui-btn-up-a ui-btn-icon-left ui-btn-corner-all ui-shadow" data-theme="a"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Back</span><span class="ui-icon ui-icon-back ui-icon-shadow"></span></span></a>
+	<h1>Maps</h1>
 </div>
+<div data-role="content">
+<ul data-role="listview">
+			<li><a href="maps.html?map=1" rel="external">Operation Metro</a></li>
+			<li><a href="maps.html?map=2" rel="external">Caspian Border </a></li>
+			<li><a href="maps.html?map=3" rel="external">Operation Firestorm </a></li>
+			<li><a href="maps.html?map=4" rel="external">Grand Bazaar </a></li>
+			<li><a href="maps.html?map=5" rel="external">Damavand Peak </a></li>
+			<li><a href="maps.html?map=6" rel="external">Tehran Highway </a></li>
+			<li><a href="maps.html?map=7" rel="external">Kharg Island </a></li>
+			<li><a href="maps.html?map=8" rel="external">Seine Crossing </a></li>
+			<li><a href="maps.html?map=9" rel="external">Noshahr Canals </a></li>
+			<li><a href="maps.html?map=10" rel="external">Gulf of Oman </a></li>
+			<li><a href="maps.html?map=11" rel="external">Sharqi Peninsula </a></li>
+			<li><a href="maps.html?map=12" rel="external">Wake Island </a></li>
+			<li><a href="maps.html?map=13" rel="external">Strike at Karkand </a></li>
+	</ul>
+</div>
+<!-- <div data-role="footer" class="ui-bar-a ui-footer" role="contentinfo">
+	<h4 class="ui-title" tabindex="0" role="heading" aria-level="1">Footer</h4>
+</div> --></div>
 </body>
 </html>
