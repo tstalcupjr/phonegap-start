@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#pageOneContent {
+	background-color: #000;
+	background-image: url(images/pOnebg.png);
+	background-repeat: no-repeat;
+	min-height: 368px;
+	background-position-y: -20px;
+}
+#page {
+	height: 480px;
+	min-height: 480px;
+}
+#page #pageOneContent ul li {
+	opacity: 0.9;
+}
+
+.imageListItem {
+	display: block;
+	height: 40px;
+	width: 380px;
+	font-size: 0.9em;	
+}
+.imageListItem strong {
+	display: block;
+	padding-top: 10px;	
+}
