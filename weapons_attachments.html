@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery Mobile Web App</title>
+<link href="jquery-mobile/jquery.mobile-1.0a3.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.5.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0a3.min.js" type="text/javascript"></script>
+<!-- This reference to phonegap.js will allow for code hints as long as the current site has been configured as a mobile application. 
+	 To configure the site as a mobile application, go to Site -> Mobile Applications -> Configure Application Framework... -->
+<script src="phonegap.js" type="text/javascript"></script>
+<link href="custom.css" rel="stylesheet" type="text/css">
+<script>
+	$(document).ready(function(e) {
+       // $.get("http://www.tjstalcup.com/apps/bf3/maps.php",{},function(data){
+			//$("#page2").html(data);
+		//})
+    });
+</script>
+</head> 
+<body> 
+
+<div data-role="page" id="attachments">
+
+
+<div data-role="header">
+	<a href="weapon_list.html" rel="external" data-role="button" data-icon="back" class="ui-btn-left ui-btn ui-btn-up-a ui-btn-icon-left ui-btn-corner-all ui-shadow" data-theme="a"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Back</span><span class="ui-icon ui-icon-back ui-icon-shadow"></span></span></a>
+	<h1>Attachments</h1>
+</div>
+<div data-role="content">
+<ul data-role="listview" data-inset="true">
+	<h2>Sights</h2>
+			<li><a href="weapons.html?weapon=75" rel="external">ACOG 4X</a></li>
+			<li><a href="weapons.html?weapon=76" rel="external">Ballistic Sight, 12X</a></li>
+			<li><a href="weapons.html?weapon=77" rel="external">Reflex RDS</a></li>
+			<li><a href="weapons.html?weapon=78" rel="external">IRNV Infrared Sight</a></li>
+			<li><a href="weapons.html?weapon=79" rel="external">PKS-07, 7X</a></li>
+			<li><a href="weapons.html?weapon=80" rel="external">M145, 3.4X</a></li>
+			<li><a href="weapons.html?weapon=81" rel="external">PSO-1, 4X</a></li>
+			<li><a href="weapons.html?weapon=82" rel="external">HOLO Holographic Site</a></li>
+			<li><a href="weapons.html?weapon=83" rel="external">PKA-S, Holographic</a></li>
+			<li><a href="weapons.html?weapon=84" rel="external">KOBRA, RDS</a></li>
+			<li><a href="weapons.html?weapon=85" rel="external">PK-A, 3.4X</a></li>
+	</ul>
+    
+    <ul data-role="listview" data-inset="true">
+    	<h2>Under Attachments</h2>
+			<li><a href="weapons.html?weapon=86" rel="external">Foregrip</a></li>
+			<li><a href="weapons.html?weapon=87" rel="external">M320 Grenade Launcher</a></li>
+			<li><a href="weapons.html?weapon=88" rel="external">Bipod</a></li>
+			<li><a href="weapons.html?weapon=89" rel="external">Tactical Light</a></li>
+			<li><a href="weapons.html?weapon=90" rel="external">Laser Sight</a></li>
+	</ul>
+    
+    <ul data-role="listview" data-inset="true">
+    	<h2>Barrels</h2>
+			<li><a href="weapons.html?weapon=91" rel="external">Heavy Barrel</a></li>
+			<li><a href="weapons.html?weapon=92" rel="external">Suppressor</a></li>
+			<li><a href="weapons.html?weapon=93" rel="external">Flash Suppressor</a></li>
+	</ul>
+    
+    <ul data-role="listview" data-inset="true">
+    	<h2>Other</h2>
+			<li><a href="weapons.html?weapon=94" rel="external">Extended Mag</a></li>
+	</ul>
+</div>
+<!-- <div data-role="footer" class="ui-bar-a ui-footer" role="contentinfo">
+	<h4 class="ui-title" tabindex="0" role="heading" aria-level="1">Footer</h4>
+</div> --></div>
+
+
+<!-- <div data-role="footer" class="ui-bar-a ui-footer" role="contentinfo">
+	<h4 class="ui-title" tabindex="0" role="heading" aria-level="1">Footer</h4>
+</div> --></div>
+</body>
+</html>

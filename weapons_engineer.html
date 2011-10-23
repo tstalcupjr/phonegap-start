@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery Mobile Web App</title>
+<link href="jquery-mobile/jquery.mobile-1.0a3.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.5.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0a3.min.js" type="text/javascript"></script>
+<!-- This reference to phonegap.js will allow for code hints as long as the current site has been configured as a mobile application. 
+	 To configure the site as a mobile application, go to Site -> Mobile Applications -> Configure Application Framework... -->
+<script src="phonegap.js" type="text/javascript"></script>
+<link href="custom.css" rel="stylesheet" type="text/css">
+<script>
+	$(document).ready(function(e) {
+       // $.get("http://www.tjstalcup.com/apps/bf3/maps.php",{},function(data){
+			//$("#page2").html(data);
+		//})
+    });
+</script>
+</head> 
+<body> 
+
+
+
+<div data-role="page" id="engineer">
+
+
+<div data-role="header">
+	<a href="weapon_list.html" rel="external" data-role="button" data-icon="back" class="ui-btn-left ui-btn ui-btn-up-a ui-btn-icon-left ui-btn-corner-all ui-shadow" data-theme="a"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Back</span><span class="ui-icon ui-icon-back ui-icon-shadow"></span></span></a>
+	<h1>Engineer Weapons</h1>
+</div>
+<div data-role="content">
+<ul data-role="listview">
+			<li><a href="weapons.html?weapon=28" rel="external">UMP-45</a></li>
+			<li><a href="weapons.html?weapon=29" rel="external">AKS 74U</a></li>
+			<li><a href="weapons.html?weapon=30" rel="external">M4A1</a></li>
+			<li><a href="weapons.html?weapon=31" rel="external">SCAR-H</a></li>
+			<li><a href="weapons.html?weapon=32" rel="external">G36C</a></li>
+			<li><a href="weapons.html?weapon=33" rel="external">SG553</a></li>
+			<li><a href="weapons.html?weapon=34" rel="external">P90</a></li>
+			<li><a href="weapons.html?weapon=35" rel="external">MP7</a></li>
+			<li><a href="weapons.html?weapon=36" rel="external">PP-2000</a></li>
+			<li><a href="weapons.html?weapon=37" rel="external">PDW-R </a></li>
+			<li><a href="weapons.html?weapon=38" rel="external">A-91</a></li>
+	</ul>
+</div>
+<!-- <div data-role="footer" class="ui-bar-a ui-footer" role="contentinfo">
+	<h4 class="ui-title" tabindex="0" role="heading" aria-level="1">Footer</h4>
+</div> --></div>
+
+
+
+
+<!-- <div data-role="footer" class="ui-bar-a ui-footer" role="contentinfo">
+	<h4 class="ui-title" tabindex="0" role="heading" aria-level="1">Footer</h4>
+</div> --></div>
+</body>
+</html>
