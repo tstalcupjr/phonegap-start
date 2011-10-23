@@ -3,10 +3,11 @@
 
 #pageOneContent {
 	background-color: #000;
-	background-image: url(images/pOnebg.png);
+	background-image: url(Default-Landscape%7Eipad.png);
 	background-repeat: no-repeat;
 	min-height: 368px;
-	background-position-y: -20px;
+	background-position-y: top;
+	background-position-x: center;
 }
 #page #pageOneContent ul li {
 	opacity: 0.9;
