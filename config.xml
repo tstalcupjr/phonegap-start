@@ -7,19 +7,37 @@
 	<name>Battlefield 3 Companion</name>
 
 	<description>
-		The ultimate companion to a Battlefield 3 Gamer. Achievements, Maps, Weapons, Vehicles, Unlocks, Medals and Ribbons. More information being added daily.
+		Battlefield 3 Companion is the ultimate app for your playing experience with the newest game in the Battlefield Franchise. 
+
+		Current Features: 
+		• All Achievements Listed with Point Values 
+		• All Weapons Listed and Sorted By Class 
+		• All Ribbons Listed with Details 
+		• All Medals Listed with Details 
+		• All Vehicles Listed and Sorted by Type 
+		• All Maps Listed with Details 
+
+		Future Features: 
+		• Integration with Battlefield 3 Stats 
+		• Detailed Maps for each Game Type 
+		• Tips & Tricks for Achievements, Ribbons and Medals 
+
+		The Companion will update every time you look at a detail page, allowing the most current information to be readily available without having to constantly check the App Store for Updates. 
+
+		Disclaimer: 
+		Battlefield 3 Companion is not authorized or endorsed by DICE or EA. All images and game content are copyright to their respective owners and their use falls under fair use guidelines. The value of this application lies in the ordering and sorting of information to help you better enjoy your experience with the game.
 	</description>
 
 	<author href="http://tjstalcup.com"
 		email="twstalcupjr@gmail.com">
-		Thomas Stalcup Jr
+		TJ Stalcup
 	</author>
 
 	<gap:platforms>
 		<gap:platform name="android" minVersion="2.1" />
 	</gap:platforms>
 
-	<icon src="icon_iphone.png" gap:role="default" />
+	<icon src="icon.png" gap:role="default" />
 
     <gap:splash src="Default.png" />
 
